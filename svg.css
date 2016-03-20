@@ -1,0 +1,12 @@
+
+.container {
+  width: 200px;
+  margin: 50px auto;
+}
+svg {
+  max-width: 100%;
+}
+.asterisk {
+	stroke: green;
+	stroke-width: 4;
+}
