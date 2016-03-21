@@ -42,18 +42,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="15.839192"
-     inkscape:cx="4.3562966"
-     inkscape:cy="10.409172"
+     inkscape:zoom="22.4"
+     inkscape:cx="7.4374002"
+     inkscape:cy="9.4028552"
      inkscape:document-units="px"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer5"
      showgrid="false"
      showguides="false"
      inkscape:guide-bbox="true"
      inkscape:window-width="1081"
      inkscape:window-height="649"
-     inkscape:window-x="12"
-     inkscape:window-y="7"
+     inkscape:window-x="49"
+     inkscape:window-y="71"
      inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -97,71 +97,33 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:groupmode="layer"
-     id="layer3"
-     inkscape:label="bg"
-     transform="translate(-1917.015,-1201.9639)"
-     style="display:inline" />
-  <g
-     inkscape:groupmode="layer"
-     id="layer4"
-     inkscape:label="final"
-     style="display:inline"
-     transform="translate(-1922.7293,-1205.3925)">
+     id="layer5"
+     inkscape:label="redo">
     <g
-       id="g6082"
-       transform="matrix(0.0917123,0,0,0.0917123,1812.3244,1163.5553)"
-       style="fill:#ffffff;fill-opacity:1">
-      <g
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:calibri;-inkscape-font-specification:calibri;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         id="g6084"
-         transform="matrix(0.73095972,0,0,0.73095972,394.20012,171.91043)">
-        <g
-           transform="translate(-91.428571,20)"
-           id="g6086"
-           style="fill:#ffffff;fill-opacity:1">
-          <g
-             transform="translate(585.88848,2.0203051)"
-             id="g6088"
-             style="fill:#ffffff;fill-opacity:1" />
-        </g>
-        <g
-           id="g6090"
-           transform="translate(-131.83467,36.162441)"
-           style="fill:#ffffff;fill-opacity:1">
-          <path
-             d="m 1347.8372,423.00491 28.6225,-16.27559 -12.347,-21.60724 -27.5001,15.71436 0,-29.46442 -27.2196,0 0,29.46442 -27.5,-15.71436 -12.3471,21.60724 28.6227,16.27559 -28.6227,16.5562 12.3471,21.60724 27.5,-15.71436 0,29.74504 27.2196,0 0,-29.74504 27.5001,15.71436 12.347,-21.60724 -28.6225,-16.5562 z"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:90px;font-family:'Galano Grotesque DEMO';-inkscape-font-specification:'Galano Grotesque DEMO Bold';fill:#000000;fill-opacity:1"
-             id="path6092"
-             inkscape:connector-curvature="0" />
-          <path
-             d="m 1425.5747,518.98616 28.6226,-16.27559 -12.347,-21.60724 -27.5001,15.71436 0,-29.46442 -27.5983,0 0,29.46442 -27.1213,-15.71436 -12.347,21.60724 28.6225,16.27559 -28.6225,16.5562 12.347,21.60724 27.5001,-15.71436 0,29.74504 27.2195,0 0,-29.74504 27.5001,15.71436 12.347,-21.60724 z"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:90px;font-family:'Galano Grotesque DEMO';-inkscape-font-specification:'Galano Grotesque DEMO Bold';fill:#000000;fill-opacity:1"
-             id="path6094"
-             inkscape:connector-curvature="0"
-             sodipodi:nodetypes="ccccccccccccccccccc" />
-        </g>
-      </g>
-      <g
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:125%;font-family:calibri;-inkscape-font-specification:calibri;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         id="g6096"
-         transform="matrix(0.812498,0,0,0.812498,210.70584,150.978)">
-        <path
-           d="m 1254.4505,369.47914 -32.8317,0 -80.8167,228.13879 32.8318,0 80.8166,-228.13879 z"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:90px;font-family:'Galano Grotesque DEMO';-inkscape-font-specification:'Galano Grotesque DEMO Bold';fill:#000000;fill-opacity:0"
-           id="path6098"
-           inkscape:connector-curvature="0" />
-        <path
-           d="m 1525.3099,369.47914 -32.8318,0 -80.8166,228.13879 32.8318,0 80.8166,-228.13879 z"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:90px;font-family:'Galano Grotesque DEMO';-inkscape-font-specification:'Galano Grotesque DEMO Bold';fill:#040404;fill-opacity:0"
-           id="path6100"
-           inkscape:connector-curvature="0" />
-      </g>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30px;line-height:125%;font-family:'Galano Grotesque DEMO';-inkscape-font-specification:'Galano Grotesque DEMO Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text5459"
+       transform="matrix(0.6270342,0,0,0.6270342,7.7704479,3.8298188)">
+      <path
+         d="M -0.80466125,1.3720959 2.2553387,-0.36790411 0.93533877,-2.6779041 l -2.94000007,1.67999999 0,-3.14999999 -2.91,0 0,3.14999999 -2.94,-1.67999999 -1.32,2.30999999 3.06,1.74000001 -3.06,1.77 1.32,2.3100001 2.94,-1.68 0,3.18 2.91,0 0,-3.18 2.94000007,1.68 1.31999993,-2.3100001 -3.05999995,-1.77 z"
+         id="path5464"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;fill-opacity:1" />
+    </g>
+    <g
+       transform="matrix(0.6270342,0,0,0.6270342,12.962095,10.284543)"
+       id="g5466"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30px;line-height:125%;font-family:'Galano Grotesque DEMO';-inkscape-font-specification:'Galano Grotesque DEMO Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1">
+      <path
+         style="fill:#000000;fill-opacity:1"
+         inkscape:connector-curvature="0"
+         id="path5468"
+         d="M -0.80466125,1.3720959 2.2553387,-0.36790411 0.93533877,-2.6779041 l -2.94000007,1.67999999 0,-3.14999999 -2.91,0 0,3.14999999 -2.94,-1.67999999 -1.32,2.30999999 3.06,1.74000001 -3.06,1.77 1.32,2.3100001 2.94,-1.68 0,3.18 2.91,0 0,-3.18 2.94000007,1.68 1.31999993,-2.3100001 -3.05999995,-1.77 z" />
     </g>
   </g>
 </svg>

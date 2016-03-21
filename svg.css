@@ -1,35 +1,61 @@
 
 .container {
-  width: 200px;
-  margin: 50px auto;
+  width: fit-content;
+  margin: 20px auto;
 }
 svg {
-  width: 90%;
-  height: 90%;
-  padding: 5%
+	width: 100px;
+	height: 100px;
+  padding: 0;
+  position: relative;
+  overflow: visible;
+  display: block;
 }
-
-.asterisk {
-	-webkit-transform-origin: 50%;
-	-ms-transform-origin: 50%;
+path {
+	position: relative;
+}
+.spin-clock, .spin-counter {
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
 	transform-origin: 50% 50%;
-	
-	-webkit-animation: spin 7s linear 0s infinite normal forwards;
-	-moz-animation: spin s linear 0s infinite normal forwards;
-	-o-animation: spin 7s linear 0s infinite normal forwards;
-	animation: spin 7s linear 0s infinite normal forwards;
 }
-
-@-moz-keyframes spin {
+.spin-clock {	
+	-webkit-animation: spin-clock 6s linear 0s infinite normal forwards;
+	-moz-animation: spin-clock 6s linear 0s infinite normal forwards;
+	-o-animation: spin-clock 6s linear 0s infinite normal forwards;
+	animation: spin-clock 6s linear 0s infinite normal forwards;
+	
+	/*animation-play-state: paused;*/
+}
+@-moz-keyframes spin-clock {
 	100% { -moz-transform: rotate(360deg); }
 }
-@-webkit-keyframes spin {
+@-webkit-keyframes spin-clock {
 	100% { -webkit-transform: rotate(360deg); }
 }
-@keyframes spin {
+@keyframes spin-clock {
 	100% { transform: rotate(360deg); }
 }
-
-.asterisk:hover {
-	animation-play-state: paused;
+.spin-counter {	
+	-webkit-animation: spin-counter 6s linear 0.2s infinite normal forwards;
+	-moz-animation: spin-counter 6s linear 0.2s infinite normal forwards;
+	-o-animation: spin-counter 6s linear 0.2s infinite normal forwards;
+	animation: spin-counter 6s linear 0.2s infinite normal forwards;
+	
+	/*animation-play-state: paused;*/
+}
+@-moz-keyframes spin-counter {
+	100% { -moz-transform: rotate(-360deg); }
+}
+@-webkit-keyframes spin-counter {
+	100% { -webkit-transform: rotate(-360deg); }
+}
+@keyframes spin-counter {
+	100% { transform: rotate(-360deg); }
+}
+#ast1 {
+	left: -33%;
+}
+#ast2 {
+	left: 33%;
 }

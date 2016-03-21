@@ -6,12 +6,27 @@
  	<link rel='stylesheet' type='text/css' href="svg.css">
 </head>
 <body>
+<div id="animation">
 	<div class="container">
 		<!--<object type="image/svg+xml" data="img/logo_icon_animated.svg"></object> -->
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 15.999999 16.000001">
-  <path class="asterisk" d="M11.75956 7.979962l4.283465-2.435696-1.84777-3.233596-4.115486 2.351706V.252926H6.006277v4.40945L1.890792 2.31067.043022 5.544266l4.283466 2.435696-4.283466 2.47769 1.84777 3.233596 4.115486-2.351706v4.451444h4.07349v-4.451444l4.115487 2.351706 1.84777-3.233596-4.283466-2.47769z" style="line-height:125%;-inkscape-font-specification:'Galano Grotesque DEMO Bold'" font-weight="bold" font-size="30" font-family="Galano Grotesque DEMO" letter-spacing="0" word-spacing="0"/>
-</svg>
 
+<!-- first asterisk -->
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"  id="ast1" >
+  <path class="spin-clock" d="M11.75956 7.979962l4.283465-2.435696-1.84777-3.233596-4.115486 2.351706V.252926H6.006277v4.40945L1.890792 2.31067.043022 5.544266l4.283466 2.435696-4.283466 2.47769 1.84777 3.233596 4.115486-2.351706v4.451444h4.07349v-4.451444l4.115487 2.351706 1.84777-3.233596-4.283466-2.47769z" style="line-height:125%;-inkscape-font-specification:'Galano Grotesque DEMO Bold'" font-weight="bold" font-size="30" font-family="Galano Grotesque DEMO" letter-spacing="0" word-spacing="0"/>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"  id="ast2">
+  <path class="spin-counter" d="M11.75956 7.979962l4.283465-2.435696-1.84777-3.233596-4.115486 2.351706V.252926H6.006277v4.40945L1.890792 2.31067.043022 5.544266l4.283466 2.435696-4.283466 2.47769 1.84777 3.233596 4.115486-2.351706v4.451444h4.07349v-4.451444l4.115487 2.351706 1.84777-3.233596-4.283466-2.47769z" style="line-height:125%;-inkscape-font-specification:'Galano Grotesque DEMO Bold'" font-weight="bold" font-size="30" font-family="Galano Grotesque DEMO" letter-spacing="0" word-spacing="0"/>
+</svg>
 	</div>
+</div>
 </body>
 </html>
+
+<script type="text/javascript">
+	document.getElementById("animation").onclick = function() {
+		var ast1 = document.getElementById("ast1");
+		var ast2 = document.getElementById("ast2");
+		ast1.style.animationPlayState = "paused";
+		ast1.style.WebkitAnimationPlayState = "paused";
+	};
+</script>
