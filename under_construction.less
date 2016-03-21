@@ -1,0 +1,66 @@
+
+  	html {
+  		background: #e8e8e8;
+  	}
+  	body {
+  		width: 100%;
+  		height: 100%;
+  		max-width: 960px;
+  		margin: 0 auto;
+  		position: relative;
+  	}
+  	#logo-full {
+			width: 84%;
+			height: 50px;
+			margin: 100px auto 20px;
+			display: block;
+		}
+		#logo-full text {
+			fill: #333;
+		}
+		#logo-full path {
+			fill: #999;
+		}
+  	p {
+  		font-family: Helvetica, Arial, sans-serif;
+  		font-size: 1.4em;
+  		font-weight: bold;
+  		text-align: center;
+  		color: #ff471a;
+  	}
+  	.animated-icon {
+  		width: 12%;
+  		min-width: 85px;
+  		margin-top: 100px;
+  		background-color: #333;
+  		padding: 16px 20px;
+  		border-radius: 2px;
+  	}
+  	.slash > path{
+  		fill: #999;
+  		stroke: #999;
+  	}
+  	.asterisk > path {
+  		fill: #e8e8e8;
+  	}
+  	@media only screen and (max-width: 360px) {
+  		object.logo {
+  			width: 88%;
+  		}
+  	}
+  	@media only screen and (max-width: 500px) {
+  		#logo-full {
+  			margin: 50px auto -15px;
+  		}
+  		.animated-icon {
+  			margin-top: 50px;
+  		}
+  	}
+		@media only screen and (min-width: 600px) {
+  		object.logo {
+  			width: 60%;
+  		}
+  		p {
+  			font-size: 2em;
+  		}
+		}
