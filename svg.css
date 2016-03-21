@@ -4,9 +4,32 @@
   margin: 50px auto;
 }
 svg {
-  max-width: 100%;
+  width: 90%;
+  height: 90%;
+  padding: 5%
 }
+
 .asterisk {
-	stroke: green;
-	stroke-width: 4;
+	-webkit-transform-origin: 50%;
+	-ms-transform-origin: 50%;
+	transform-origin: 50% 50%;
+	
+	-webkit-animation: spin 7s linear 0s infinite normal forwards;
+	-moz-animation: spin s linear 0s infinite normal forwards;
+	-o-animation: spin 7s linear 0s infinite normal forwards;
+	animation: spin 7s linear 0s infinite normal forwards;
+}
+
+@-moz-keyframes spin {
+	100% { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+	100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+	100% { transform: rotate(360deg); }
+}
+
+.asterisk:hover {
+	animation-play-state: paused;
 }
