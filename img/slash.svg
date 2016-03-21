@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="5.6444445mm"
-   height="3.3490431mm"
-   viewBox="0 0 20 11.866689"
+   width="1.388369mm"
+   height="3.3490415mm"
+   viewBox="0 0 4.9194176 11.866683"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="logo_icon_mono.svg"
+   sodipodi:docname="slash.svg"
    inkscape:export-filename="/Users/janereynolds/Documents/content_grinders/logo_concepts/logo_con1.png"
    inkscape:export-xdpi="37.236794"
    inkscape:export-ydpi="37.236794">
@@ -43,8 +43,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="15.839192"
-     inkscape:cx="14.610754"
-     inkscape:cy="6.1919554"
+     inkscape:cx="3.1529978"
+     inkscape:cy="0.83474666"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -61,31 +61,31 @@
      fit-margin-bottom="0"
      inkscape:snap-global="false">
     <sodipodi:guide
-       position="-1656.6369,559.80894"
+       position="-1656.6407,559.8089"
        orientation="0,1"
        id="guide4144" />
     <sodipodi:guide
-       position="-486.60391,482.10906"
+       position="-486.60774,482.10902"
        orientation="0,1"
        id="guide5906" />
     <sodipodi:guide
-       position="-265.17532,294.9662"
+       position="-265.17914,294.96615"
        orientation="0,1"
        id="guide5908" />
     <sodipodi:guide
-       position="-666.60391,520.68049"
+       position="-666.60774,520.68046"
        orientation="1,0"
        id="guide5910" />
     <sodipodi:guide
-       position="-353.74681,482.10906"
+       position="-353.75063,482.10902"
        orientation="1,0"
        id="guide5912" />
     <sodipodi:guide
-       position="-499.46101,642.10906"
+       position="-499.46484,642.10903"
        orientation="1,0"
        id="guide5914" />
     <sodipodi:guide
-       position="-499.46101,390.68048"
+       position="-499.46484,390.68044"
        orientation="0,1"
        id="guide5916" />
   </sodipodi:namedview>
@@ -105,35 +105,12 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="redo"
-     transform="translate(-38.160449,-145.41938)">
-    <g
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30px;line-height:125%;font-family:'Galano Grotesque DEMO';-inkscape-font-specification:'Galano Grotesque DEMO Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="text4868"
-       transform="matrix(0.81979718,0,0,0.81979718,-45.643786,111.30064)">
-      <path
-         d="m 113.60648,45.986569 1.6338,-0.929026 -0.70478,-1.233362 -1.56973,0.896991 0,-1.681858 -1.55372,0 0,1.681858 -1.56973,-0.896991 -0.70478,1.233362 1.6338,0.929026 -1.6338,0.945044 0.70478,1.233363 1.56973,-0.896991 0,1.697875 1.55372,0 0,-1.697875 1.56973,0.896991 0.70478,-1.233363 -1.6338,-0.945044 z"
-         id="path4873"
-         inkscape:connector-curvature="0"
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1" />
-    </g>
+     transform="translate(-38.164252,-145.41932)">
     <path
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.06627975;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 42.397164,145.45861 1.6925,-0.006 -4.177991,11.80016 -1.704336,-0.006 z"
+       d="m 41.348057,145.45861 1.6925,-0.006 -3.128884,11.80016 -1.704336,-0.006 z"
        id="path4881"
-       inkscape:connector-curvature="0" />
-    <path
        inkscape:connector-curvature="0"
-       id="path4883"
-       d="m 56.420998,145.45861 1.692501,-0.006 -4.177991,11.80016 -1.704336,-0.006 z"
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.06627975;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <g
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30px;line-height:125%;font-family:'Galano Grotesque DEMO';-inkscape-font-specification:'Galano Grotesque DEMO Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="text5509"
-       transform="matrix(0.43770779,0,0,0.43770779,28.354136,92.464935)">
-      <path
-         d="m 52.003002,139.4383 3.06,-1.74 -1.32,-2.31 -2.94,1.68 0,-3.15 -2.91,0 0,3.15 -2.94,-1.68 -1.32,2.31 3.06,1.74 -3.06,1.77 1.32,2.31 2.94,-1.68 0,3.18 2.91,0 0,-3.18 2.94,1.68 1.32,-2.31 -3.06,-1.77 z"
-         id="path5514"
-         inkscape:connector-curvature="0" />
-    </g>
+       sodipodi:nodetypes="ccccc" />
   </g>
 </svg>

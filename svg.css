@@ -1,11 +1,26 @@
-
 .container {
-  width: fit-content;
-  margin: 20px auto;
+	width: 80%;
+	height: min-content;
+	margin: 20px auto; 
 }
-svg {
-	width: 100px;
-	height: 100px;
+
+#animation {
+	width: 60%;
+	height: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.slash {
+	width: 25%;
+	height: auto;
+	margin: 0 -5%;
+	display: inline-block;
+}
+
+.asterisk {
+	width: 50%;
+	height: auto;
   padding: 0;
   position: relative;
   overflow: visible;
@@ -21,8 +36,7 @@ svg {
 	-moz-animation: spin-clock 6s linear 0s infinite normal forwards;
 	-o-animation: spin-clock 6s linear 0s infinite normal forwards;
 	animation: spin-clock 6s linear 0s infinite normal forwards;
-	
-	/*animation-play-state: paused;*/
+
 }
 @-moz-keyframes spin-clock {
 	100% { -moz-transform: rotate(360deg); }
@@ -38,8 +52,6 @@ svg {
 	-moz-animation: spin-counter 6s linear 0.2s infinite normal forwards;
 	-o-animation: spin-counter 6s linear 0.2s infinite normal forwards;
 	animation: spin-counter 6s linear 0.2s infinite normal forwards;
-	
-	/*animation-play-state: paused;*/
 }
 @-moz-keyframes spin-counter {
 	100% { -moz-transform: rotate(-360deg); }
@@ -51,8 +63,8 @@ svg {
 	100% { transform: rotate(-360deg); }
 }
 #ast1 {
-	left: -33%;
+	left: 8%;
 }
 #ast2 {
-	left: 33%;
+	left: 40%;
 }
