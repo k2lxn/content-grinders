@@ -26,10 +26,20 @@
   overflow: visible;
   display: block;
 }
-.spin-clock, .spin-counter {
-	-webkit-transform-origin: 50% 50%;
-	-ms-transform-origin: 50% 50%;
-	transform-origin: 50% 50%;
+.spin-clock {
+  -webkit-transform-origin: 33% 50%;
+	-ms-transform-origin: 33% 50%;
+	-moz-transform-origin: 33% 50%;
+	-o-transform-origin: 33% 50%;
+	transform-origin: 33% 50%;
+}
+
+.spin-counter {
+	-webkit-transform-origin: 66% 50%;
+	-ms-transform-origin: 66% 50%;
+	-moz-transform-origin: 66% 50%;
+	-o-transform-origin: 66% 50%; 
+	transform-origin: 66% 50%;
 }
 .spin-clock {	
 	-webkit-animation: spin-clock 6s linear 0s infinite normal forwards;
