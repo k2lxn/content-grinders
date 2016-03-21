@@ -4,6 +4,8 @@
   <title>Animated Logo</title>
   <meta name='viewport' content='width=device-width,initial-scale=1'>
  	<link rel='stylesheet' type='text/css' href="svg.css">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+ 	<script src="logo_animation.js"></script>
 </head>
 <body>
 <div id="animation">
@@ -22,11 +24,3 @@
 </body>
 </html>
 
-<script type="text/javascript">
-	document.getElementById("animation").onclick = function() {
-		var ast1 = document.getElementById("ast1");
-		var ast2 = document.getElementById("ast2");
-		ast1.style.animationPlayState = "paused";
-		ast1.style.WebkitAnimationPlayState = "paused";
-	};
-</script>

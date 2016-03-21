@@ -11,9 +11,6 @@ svg {
   overflow: visible;
   display: block;
 }
-path {
-	position: relative;
-}
 .spin-clock, .spin-counter {
 	-webkit-transform-origin: 50% 50%;
 	-ms-transform-origin: 50% 50%;
