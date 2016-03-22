@@ -1,23 +1,32 @@
 .animated-icon {
 	width: 80%;
 	height: min-content;
-	margin: 20px auto; 
+	position: relative;
 }
 
 #animation {
-	width: 60%;
+	width: 40%;
 	height: 100%;
   display: inline-block;
-  position: relative;
+  position: absolute;
+  top: 25%;
+  left: 30%;
 }
 
 .slash {
 	width: 25%;
-	height: auto;
+	height: 100%;
 	margin: 0 -5%;
 	display: inline-block;
 }
-
+/*@media only screen and (max-width: 768px) {
+	.slash {
+		height: 16%;
+	}
+}*/
+.slash:nth-of-type(2) {
+	float: right;
+}
 .asterisk {
 	width: 50%;
 	height: auto;
